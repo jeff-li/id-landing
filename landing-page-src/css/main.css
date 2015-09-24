@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background: #000; 
+  font: "Raleway", sans-serif;
 }
 video { 
     position: fixed;
@@ -48,6 +49,18 @@ video {
   bottom: 0;
 }*/
 
+.social i {
+  padding: 5px;
+}
+
+.description {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-size: 20px;
+}
+
 .actions {
   position: absolute;
     width: 100%;
@@ -89,9 +102,13 @@ video {
 
 h1 {
   font-size: 3rem;
+  font: "Raleway", sans-serif;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
+}
+h2 {
+  font: "Raleway", sans-serif;
 }
 #id-video button { 
   display: block;
