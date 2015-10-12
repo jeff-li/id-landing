@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="landing-page-src/css/normalize.css">
         <link rel="stylesheet" href="landing-page-src/css/main.css">
         <link rel="stylesheet" href="landing-page-src/css/font-awesome.min.css">
+        <link rel="stylesheet" href="landing-page-src/css/bootstrap.min.css">
         <script src="landing-page-src/js/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -22,34 +23,34 @@
 
         <!-- Add your site or application content here -->
         
-		<video autoplay muted poster="http://dragonboat.skule.ca/wordpress/wp-content/uploads/2015/08/11206509_10207337833386531_1515943985639289_o.jpg" id="bgvid" loop>
+		<video autoplay muted poster="http://dragonboat.skule.ca/images/id.jpg" id="bgvid" loop>
     		  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-    		<source src="http://dragonboat.skule.ca/media/university_final.webm" type="video/webm">
-    		<source src="http://dragonboat.skule.ca/media/university_final.mp4" type="video/mp4">
+                <source src="http://dragonboat.skule.ca/media/university_final.webm" type="video/webm">
+                <source src="http://dragonboat.skule.ca/media/university_final.mp4" type="video/mp4">
+    		
 		</video>
 
-
 		<div id="id-video">
-            <div class="container">
+            <div class="vid-container">
                 <div class="id-content">
                     <div class="logo-container">
                         <!-- <img id="logo" src="http://dragonboat.skule.ca/images/200px-IronDragonsLogo.png"> -->
                         <img id="logo" src="http://dragonboat.skule.ca/wordpress/wp-content/uploads/2015/08/ID_icon.png">
                     </div>
-            		<h2>University of Toronto Engineering</h2>
+            		<h3>University of Toronto Engineering</h3>
                     <h1>Iron Dragons</h1>
                     <div class="social">
-                        <a target="_blank" href="https://www.facebook.com/irondragons"><i class="fa fa-facebook-official fa-lg"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/user/uoftirondragons"><i class="fa fa-youtube fa-lg"></i></a>
-                        <a target="_blank" href="https://twitter.com/skuledragonboat"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a target="_blank" href="https://instagram.com/skuledragonboat"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/irondragons"><i class="fa fa-facebook-official fa-2x"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/user/uoftirondragons"><i class="fa fa-youtube fa-2x"></i></a>
+                        <a target="_blank" href="https://twitter.com/skuledragonboat"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a target="_blank" href="https://instagram.com/skuledragonboat"><i class="fa fa-instagram fa-2x"></i></a>
                     </div>
                 </div>
                 </div>
                 <div class="actions">
                     <button id="enter-btn"  onClick="location.href='http://dragonboat.skule.ca'">ENTER</button>
                     <div class="video-control">
-                        <button id="vid-mute"><i class="fa fa-volume-off fa-lg"></i><i class="fa fa-times"></i></button>
+                        <button id="vid-mute"><i class="fa fa-volume-off fa-lg"></i><i class="fa fa-times fa-lg"></i></button>
                         <button id="vid-ctrl">Pause</button>
                     </div>
                 </div>
@@ -61,19 +62,10 @@
             University 200m Final</p>
 
         </div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="landing-page-src/js/jquery-1.11.3.min.js"></script>
+        <script src="landing-page-src/js/bootstrap.min.js"></script>
         <script src="landing-page-src/js/home.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
     </body>
 </html>
 
